@@ -1,0 +1,124 @@
+.contact-container{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 20px 100px;
+}
+
+.contact-container:after{
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	background-color: black;
+	z-index: -1;
+}
+
+.contact-box{
+	max-width: 500px;
+	display: grid;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	background-color: #fff;
+	box-shadow: 0px 0px 19px 5px rgba(0,0,0,0.19);
+    background-color: black;
+	margin-top: 70px;
+}
+
+
+
+.contact-box .right{
+	padding: 50px 70px;
+	background-color: black;
+}
+
+.contact-box h2{
+	
+	padding: 0 0 10px;
+	background: black;
+	color: white;
+    opacity: 70%;
+	font-size: 17px;
+}
+
+.contact-box h2:after{
+	content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    height: 4px;
+    width: 50px;
+    border-radius: 2px;
+    background-color: #2ecc71;
+}
+
+.contact-box .field{
+	width: 100%;
+	border: 2px solid rgba(0, 0, 0, 0);
+	outline: none;
+	background-color: rgba(230, 230, 230, 0.6);
+	padding: 0.5rem 1rem;
+	font-size: 17px;
+	font-weight: 700;
+	margin-bottom: 22px;
+	transition: 250ms ease-in-out;
+	background: #DADAFF;
+}
+
+
+
+.contact-box textarea{
+	min-height: 150px;
+}
+
+.contact-box .btn{
+	width: 100%;
+	padding: 0.5rem 1rem;
+	background-color: #ffff;
+	color: #2F24AE;
+	font-size: 20px;
+	font-weight: 700;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	transition: 250ms ease-in-out;
+	height: 50px;
+}
+
+.contact-box .btn:hover{
+    background-color: #2F24AE;
+	color: #fff;
+}
+
+.contact-box .field:focus{
+    border: 2px solid rgba(30,85,250,0.47);
+    background-color: #fff;
+}
+
+@media screen and (max-width: 880px){
+	.contact-box{
+		grid-template-columns: 1fr;
+	}
+	.contact-box .left{
+		height: 200px;
+	}
+	.contact-container{
+		padding: 20px 0;
+	}
+}
+
+@media screen and (max-width: 390px){
+	.contact-box .right{
+		padding: 50px 20px;
+	}
+	.contact-box h2{
+		font-size: 12px;
+	}
+}

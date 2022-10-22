@@ -1,0 +1,41 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+}
+
+.service-container {
+    width: 70%;
+}
+
+.service-header {
+    text-align: center;
+    margin: 70px 0;
+    font-weight: 700;
+    font-size: 50px;
+    color: #2F24AE;
+}
+
+.service-row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-bottom: 70px;
+}
+
+.service-row h2 {
+    color: #2F24AE;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 30px 0;
+}
+
+@media (max-width: 1250px) {
+    .service-row {
+        display: block;
+        margin-bottom: 0;
+    }
+    .service {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 80px;
+    }
+}
