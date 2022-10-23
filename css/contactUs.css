@@ -39,12 +39,11 @@
 }
 
 .contact-box h2{
-	
 	padding: 0 0 10px;
 	background: black;
 	color: white;
-    opacity: 70%;
-	font-size: 17px;
+	font-size: 18px;
+	font-weight: 400;
 }
 
 .contact-box h2:after{
@@ -56,7 +55,6 @@
     height: 4px;
     width: 50px;
     border-radius: 2px;
-    background-color: #2ecc71;
 }
 
 .contact-box .field{
@@ -70,9 +68,8 @@
 	margin-bottom: 22px;
 	transition: 250ms ease-in-out;
 	background: #DADAFF;
+	color: black;
 }
-
-
 
 .contact-box textarea{
 	min-height: 150px;
@@ -83,7 +80,7 @@
 	padding: 0.5rem 1rem;
 	background-color: #ffff;
 	color: #2F24AE;
-	font-size: 20px;
+	font-size: 15px;
 	font-weight: 700;
 	border: none;
 	outline: none;
@@ -93,13 +90,21 @@
 }
 
 .contact-box .btn:hover{
-    background-color: #2F24AE;
-	color: #fff;
+    background-color: #DADAFF;
 }
 
 .contact-box .field:focus{
     border: 2px solid rgba(30,85,250,0.47);
     background-color: #fff;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+	color: black;
+	font-weight: 500;
+	font-size: 15px;
+	font-family: 'Poppins', sans-serif;
+    font-style: normal;
+	opacity: 1; /* Firefox */
 }
 
 @media screen and (max-width: 880px){

@@ -10,7 +10,7 @@
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     width: 100%;
-    height: 100vh;
+    height: 90vh;
     left: 0px;
     top: 0px;
     display: flex;
@@ -57,15 +57,14 @@
 .header-button {
     width: 394px;
     height: 65px;
-    font-weight: 800;
-    font-size: 20px;
+    font-weight: 600;
+    font-size: 18px;
     color: #2F24AE;
-    border: 2px solid white;
+    border: 0;
     transition: 250ms ease-in-out;
 }
 .header-button:hover {
-    color: white;
-    background-color: #2F24AE;
+    background-color: #DADAFF;
 }
 
 .header-photo {
@@ -76,15 +75,15 @@
     margin-top: 70px;
     width: 350px;
     position: absolute;
-    right: 0;
+    right: -120px;
 }
 
 .background-pic img{
     position: absolute;
-    width: 525px;
-    height: 470px;
+    width: 390px;
+    height: 410px;
     right: 0;
-    top: 10vh;
+    top: 8vh;
     opacity: 0.1;
 }
 
@@ -108,9 +107,11 @@
     .header-logo {
         width: 80%;
     }
-
     .header-info {
         width: 80%;
+    }
+    .header-photo img {
+        right: 0;
     }
 }
 
@@ -121,6 +122,12 @@
 
     .header-info {
         width: 90%;
+    }
+}
+
+@media (max-width: 1600px) {
+    .header-button-div {
+        margin-top: 40px;
     }
 }
 
@@ -140,7 +147,6 @@
 @media (max-width: 500px) {
     .header-button-div {
         width: 300px;
-        margin-top: 40px;
     }
     .header-text .title h2{
         font-size: 50px;

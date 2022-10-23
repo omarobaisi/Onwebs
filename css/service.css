@@ -19,6 +19,7 @@ body {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     margin-bottom: 70px;
+    grid-gap: 150px;
 }
 
 .service-row h2 {
@@ -26,6 +27,12 @@ body {
     font-size: 18px;
     font-weight: 700;
     margin: 30px 0;
+}
+
+@media (max-width: 1400px) {
+    .service-row {
+        grid-gap: 100px;
+    }
 }
 
 @media (max-width: 1250px) {
