@@ -6,17 +6,20 @@
     margin: 0 auto;
 }
 
-.header-container {
+body {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
+}
+
+.header-container {
     width: 100%;
-    height: 90vh;
+    height: 91vh;
     left: 0px;
     top: 0px;
     display: flex;
     background: #2F24AE;
     display: grid;
-    grid-template-rows: 1fr 5fr;
+    grid-template-rows: 1.7fr 5fr;
 }
 
 .header-logo {
@@ -32,7 +35,7 @@
     width: 70%;
     display: grid;
     z-index: 1;
-    grid-template-columns: 3fr 2fr;
+    grid-template-columns: 4fr 2fr;
 }
 
 .header-text {
@@ -73,15 +76,15 @@
 }
 .header-photo img {
     margin-top: 70px;
-    width: 350px;
+    width: 400px;
     position: absolute;
-    right: -120px;
+    right: -100px;
 }
 
 .background-pic img{
     position: absolute;
-    width: 390px;
-    height: 410px;
+    width: 450px;
+    height: 450px;
     right: 0;
     top: 8vh;
     opacity: 0.1;
@@ -109,9 +112,11 @@
     }
     .header-info {
         width: 80%;
+        grid-template-columns: 3fr 2fr;
     }
     .header-photo img {
         right: 0;
+        width: 350px;
     }
 }
 

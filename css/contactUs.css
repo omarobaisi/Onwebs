@@ -69,10 +69,11 @@
 	transition: 250ms ease-in-out;
 	background: #DADAFF;
 	color: black;
+	height: 60px;
 }
 
 .contact-box textarea{
-	min-height: 150px;
+	min-height: 120px;
 }
 
 .contact-box .btn{
@@ -80,13 +81,13 @@
 	padding: 0.5rem 1rem;
 	background-color: #ffff;
 	color: #2F24AE;
-	font-size: 15px;
+	font-size: 17px;
 	font-weight: 700;
 	border: none;
 	outline: none;
 	cursor: pointer;
 	transition: 250ms ease-in-out;
-	height: 50px;
+	height: 65px;
 }
 
 .contact-box .btn:hover{
@@ -100,7 +101,7 @@
 
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
 	color: black;
-	font-weight: 500;
+	font-weight: 400;
 	font-size: 15px;
 	font-family: 'Poppins', sans-serif;
     font-style: normal;
