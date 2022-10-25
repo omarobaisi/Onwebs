@@ -81,6 +81,9 @@
     .testimonials .inner{
         width: 90%;
     }
+    .inner h1 {
+        font-size: 40px;
+    }
 }
 
 @media (max-width: 420px) {

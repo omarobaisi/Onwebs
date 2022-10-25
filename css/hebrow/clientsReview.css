@@ -31,6 +31,7 @@
     box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
     color: #ffff;
     height: 450px;
+    width: 100%;
 }
 .testimonial {
     height: 450px;
@@ -38,18 +39,17 @@
     flex-direction: column;
 }
 .testimonial p {
-    color: white;
-    opacity: 70%;
-    width: 70%;
+    color: #DADAFF;
+    width: 100%;
     font-size: 16px;
     font-weight: 400;
     line-height: 23px;
 }
 .testimonial .name {
-    font-family: 'Poppins', sans-serif;
     font-weight: 800;
-    size: 18px;
+    font-size: 18px;
     line-height: 27.19px;
+    margin: 30px;
 }
 .comma {
     margin-top: 70px;
@@ -86,6 +86,9 @@
 @media (max-width: 640px) {
     .testimonials .inner{
         width: 90%;
+    }
+    .inner h1 {
+        font-size: 50px;
     }
 }
 

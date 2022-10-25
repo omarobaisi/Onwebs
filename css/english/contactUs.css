@@ -91,19 +91,14 @@
 }
 
 .contact-box .btn:hover{
-    background-color: #DADAFF;
-}
-
-.contact-box .field:focus{
-    border: 2px solid rgba(30,85,250,0.47);
-    background-color: #fff;
+    background-color: #2F24AE;
+	color: white;
 }
 
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
 	color: black;
 	font-weight: 400;
 	font-size: 15px;
-	font-family: 'Poppins', sans-serif;
     font-style: normal;
 	opacity: 1; /* Firefox */
 }

@@ -38,7 +38,7 @@
 	background-color: black;
 }
 
-.contact-box h2{
+.contact-box .contact-info{
 	padding: 0 0 10px;
 	background: black;
 	color: white;
@@ -46,16 +46,8 @@
 	font-weight: 400;
 	line-height: 20px;
 }
-
-.contact-box h2:after{
-	content: '';
-    position: absolute;
-    left: 50%;
-    bottom: 0;
-    transform: translateX(-50%);
-    height: 4px;
-    width: 50px;
-    border-radius: 2px;
+.contact-box .number {
+	padding: 15px 0;
 }
 
 .contact-box .field{
@@ -71,6 +63,7 @@
 	background: #DADAFF;
 	color: black;
 	height: 60px;
+	font-family: 'Heebo', sans-serif;
 }
 
 .contact-box textarea{
@@ -78,12 +71,13 @@
 }
 
 .contact-box .btn{
+	font-family: 'Heebo', sans-serif;
 	width: 100%;
 	padding: 0.5rem 1rem;
 	background-color: #ffff;
 	color: #2F24AE;
 	font-size: 18px;
-	font-weight: 600;
+	font-weight: 500;
 	line-height: 20px;
 	border: none;
 	outline: none;
@@ -97,18 +91,12 @@
 	color: white;
 }
 
-.contact-box .field:focus{
-    border: 2px solid rgba(30,85,250,0.47);
-    background-color: #fff;
-}
-
 ::placeholder {
+	font-family: 'Heebo', sans-serif;
 	color: black;
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 23px;
-	font-family: 'Poppins', sans-serif;
-    font-style: normal;
 	opacity: 1;
 }
 
