@@ -1,0 +1,134 @@
+.contact-container{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 20px 100px;
+}
+
+.contact-container:after{
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	background-color: black;
+	z-index: -1;
+}
+
+.contact-box{
+	max-width: 500px;
+	display: grid;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	background-color: #fff;
+	box-shadow: 0px 0px 19px 5px rgba(0,0,0,0.19);
+    background-color: black;
+	margin-top: 70px;
+}
+
+
+
+.contact-box .right{
+	padding: 50px 70px;
+	background-color: black;
+}
+
+.contact-box h2{
+	padding: 0 0 10px;
+	background: black;
+	color: white;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 20px;
+}
+
+.contact-box h2:after{
+	content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    height: 4px;
+    width: 50px;
+    border-radius: 2px;
+}
+
+.contact-box .field{
+	width: 100%;
+	border: 2px solid rgba(0, 0, 0, 0);
+	outline: none;
+	background-color: rgba(230, 230, 230, 0.6);
+	padding: 0.5rem 1rem;
+	font-size: 17px;
+	font-weight: 700;
+	margin-bottom: 22px;
+	transition: 250ms ease-in-out;
+	background: #DADAFF;
+	color: black;
+	height: 60px;
+}
+
+.contact-box textarea{
+	min-height: 120px;
+}
+
+.contact-box .btn{
+	width: 100%;
+	padding: 0.5rem 1rem;
+	background-color: #ffff;
+	color: #2F24AE;
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 20px;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	transition: 250ms ease-in-out;
+	height: 65px;
+}
+
+.contact-box .btn:hover{
+    background-color: #2F24AE;
+	color: white;
+}
+
+.contact-box .field:focus{
+    border: 2px solid rgba(30,85,250,0.47);
+    background-color: #fff;
+}
+
+::placeholder {
+	color: black;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 23px;
+	font-family: 'Poppins', sans-serif;
+    font-style: normal;
+	opacity: 1;
+}
+
+@media screen and (max-width: 880px){
+	.contact-box{
+		grid-template-columns: 1fr;
+	}
+	.contact-box .left{
+		height: 200px;
+	}
+	.contact-container{
+		padding: 20px 0;
+	}
+}
+
+@media screen and (max-width: 390px){
+	.contact-box .right{
+		padding: 50px 20px;
+	}
+	.contact-box h2{
+		font-size: 12px;
+	}
+}

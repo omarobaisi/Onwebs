@@ -23,17 +23,32 @@ body {
 }
 
 .header-logo {
-    width: 70%
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
 }
 
 .header-logo img {
     width: 130px;
-    margin-top: 30px;
+}
+
+.change-language-div {
+    text-align: right;
+}
+
+.change-language {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
 }
 
 .header-info {
     width: 70%;
     display: grid;
+    justify-content: flex-start;
     z-index: 1;
     grid-template-columns: 4fr 2fr;
 }
