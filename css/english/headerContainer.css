@@ -95,10 +95,10 @@ body {
     position: relative;
 }
 .header-photo img {
-    margin-top: 70px;
+    margin-top: 45px;
     width: 400px;
     position: absolute;
-    right: -100px;
+    right: -110px;
 }
 
 /* .background-pic img{

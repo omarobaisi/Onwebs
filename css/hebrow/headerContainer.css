@@ -99,10 +99,10 @@ body {
     position: relative;
 }
 .header-photo img {
-    margin-top: 70px;
+    margin-top: 45px;
     width: 400px;
     position: absolute;
-    left: -100px;
+    left: -110px;
 }
 
 /* .background-pic img{
