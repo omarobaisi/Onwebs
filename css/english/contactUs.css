@@ -103,6 +103,19 @@
 	opacity: 1; /* Firefox */
 }
 
+.copyrights {
+	background-color: black;
+	color: white;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 27.19px;
+	padding-bottom: 10px;
+}
+
+.copyrights div {
+	width: 80%;
+}
+
 @media screen and (max-width: 880px){
 	.contact-box{
 		grid-template-columns: 1fr;
@@ -121,5 +134,13 @@
 	}
 	.contact-box h2{
 		font-size: 12px;
+	}
+	.copyrights {
+		background-color: black;
+		color: white;
+		font-size: 12px;
+	}
+	.copyrights div {
+		width: 95%;
 	}
 }

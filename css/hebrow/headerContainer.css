@@ -88,6 +88,7 @@ body {
     color: #2F24AE;
     border: 0;
     transition: 250ms ease-in-out;
+    font-family: 'Heebo', sans-serif;
 }
 .header-button:hover {
     background-color: #DADAFF;
