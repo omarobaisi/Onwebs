@@ -25,6 +25,7 @@ body {
     /* background-color: #2F24AE; */
     background-image: url('../../img//Background\ English.png');
     background-size: cover;
+    background-position: right;
 }
 
 .header-logo {
@@ -68,10 +69,13 @@ body {
     line-height: 86px;
     color: #DADAFF;
 }
-.header-text .title div{
+.header-text .title div h5{
     font-size: 20px;
     line-height: 32px;
+    font-weight: 400;
     color: #FFFFFF;
+}
+.header-text .title div{
     margin-top: 30px;
 }
 .header-button-div {
@@ -80,8 +84,9 @@ body {
 .header-button {
     width: 394px;
     height: 65px;
-    font-weight: 600;
-    font-size: 18px;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 20px;
     color: #2F24AE;
     border: 0;
     transition: 250ms ease-in-out;
@@ -110,36 +115,108 @@ body {
     opacity: 0.1;
 } */
 
-@media (min-width: 2000px) {
+@media screen and (max-width: 1728px){
+	.header-photo img {
+        margin-top: 10px;
+    }
+    .header-text .title h2 {
+        font-size: 60px;
+        line-height: 75px;
+    }
+    .header-text .title div h5 {
+        font-size: 17px
+    }
     .header-button {
-        width: 500px;
-        height: 100px;
-    }
-    .header-text .title h2{
-        font-size: 80px;
-    }
-    .header-text .title div{
-        font-size: 30px;
-    }
-    .header-photo img {
-        width: 500px;
+        font-size: 15px;
     }
 }
 
-@media (max-width: 1400px) {
-    .header-logo {
-        width: 80%;
+@media (max-width: 1512px){
+	.header-photo img {
+        width: 370px;
+        right: -120px;
     }
+    .header-text .title h2 {
+        font-size: 55px;
+        line-height: 70px;
+    }
+    .header-button {
+        font-size: 16px;
+    }
+    .header-button {
+        width: 354px;
+    }
+}
+
+@media (max-width: 1440px){
+    .header-photo img {
+        
+    }
+    .header-text .title h2 {
+        font-size: 50px;
+        line-height: 65px;
+    }
+    .header-text .title div h5 {
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .header-button {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 1280px){
+    .header-photo img {
+        margin-top: 25px;
+        width: 280px;
+    }
+	.header-text .title div h5 {
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .header-button {
+        font-size: 15px;
+    }
+}
+
+/*! To Do (mobile) */
+
+@media (max-width: 1024px){
     .header-info {
-        width: 80%;
-        grid-template-columns: 3fr 2fr;
+        grid-template-columns: 1fr;
     }
-    .header-photo img {
-        right: 0;
-        width: 350px;
+    .header-photo {
+        display: none;
+    }
+    .header-container {
+        height: 785px;
+    }
+    .header-text .title h2 {
+        font-size: 65px;
+        line-height: 82px;
+    }
+	.header-text .title div h5 {
+        font-size: 18px;
+        line-height: 35px;
+    }
+    .header-button {
+        font-size: 16px;
     }
 }
 
+@media (max-width: 834px){
+
+}
+
+@media (max-width: 834px){
+
+}
+
+@media (max-width: 834px){
+
+}
+
+/* 
 @media (max-width: 1160px) {
     .header-logo {
         width: 90%;
@@ -147,12 +224,6 @@ body {
 
     .header-info {
         width: 90%;
-    }
-}
-
-@media (max-width: 1600px) {
-    .header-button-div {
-        margin-top: 40px;
     }
 }
 
@@ -185,4 +256,4 @@ body {
     .header-button-div {
         width: 200px;
     }
-}
+} */
