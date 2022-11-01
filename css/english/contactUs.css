@@ -31,8 +31,6 @@
 	margin-top: 70px;
 }
 
-
-
 .contact-box .right{
 	padding: 50px 70px;
 	background-color: black;
@@ -42,8 +40,9 @@
 	padding: 0 0 10px;
 	background: black;
 	color: white;
-	font-size: 18px;
+	font-size: 15px;
 	font-weight: 400;
+	line-height: 20px;
 }
 
 .contact-box h2:after{
@@ -58,18 +57,16 @@
 }
 
 .contact-box .field{
-	width: 100%;
+	width: 443px;
+	height: 65px;
 	border: 2px solid rgba(0, 0, 0, 0);
 	outline: none;
 	background-color: rgba(230, 230, 230, 0.6);
 	padding: 0.5rem 1rem;
-	font-size: 17px;
-	font-weight: 700;
 	margin-bottom: 22px;
 	transition: 250ms ease-in-out;
 	background: #DADAFF;
 	color: black;
-	height: 60px;
 }
 
 .contact-box textarea{
@@ -77,28 +74,29 @@
 }
 
 .contact-box .btn{
-	width: 100%;
+	width: 443px;
+	height: 65px;
+	font-size: 16px;
+	font-weight: 800;
+	line-height: 20px;
 	padding: 0.5rem 1rem;
 	background-color: #ffff;
 	color: #2F24AE;
-	font-size: 17px;
-	font-weight: 700;
 	border: none;
 	outline: none;
 	cursor: pointer;
 	transition: 250ms ease-in-out;
-	height: 65px;
 }
 
 .contact-box .btn:hover{
-    background-color: #2F24AE;
-	color: white;
+    background-color: #DADAFF;
 }
 
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
 	color: black;
 	font-weight: 400;
 	font-size: 15px;
+	line-height: 23px;
     font-style: normal;
 	opacity: 1; /* Firefox */
 }
@@ -116,36 +114,40 @@
 	width: 80%;
 }
 
-@media screen and (max-width: 1728px){
-	
-}
-
 @media (max-width: 1512px){
-	
+	.contact-box .field, .contact-box .btn{
+		width: 338px;
+	}
+	.copyrights {
+		line-height: 23px;
+	}
 }
 
 @media (max-width: 1440px){
-    
+	.contact-box .field, .contact-box .btn{
+		width: 354px;
+	}
 }
 
 @media (max-width: 1280px){
-    
+    .contact-box .field, .contact-box .btn{
+		width: 388px;
+	}
 }
 
 @media (max-width: 1024px){
-    
+    .contact-box .field, .contact-box .btn{
+		width: 354px;
+	}
+	.copyrights {
+		text-align: center;
+	}
 }
 
-@media (max-width: 834px){
-
-}
-
-@media (max-width: 834px){
-
-}
-
-@media (max-width: 834px){
-
+@media (max-width: 430px){
+	.contact-box .field, .contact-box .btn{
+		width: 265px;
+	}
 }
 
 @media screen and (max-width: 880px){
