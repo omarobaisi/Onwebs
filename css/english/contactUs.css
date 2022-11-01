@@ -57,6 +57,7 @@
 }
 
 .contact-box .field{
+	font-family: 'Heebo', sans-serif;
 	width: 443px;
 	height: 65px;
 	border: 2px solid rgba(0, 0, 0, 0);
@@ -93,6 +94,7 @@
 }
 
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+	font-family: 'Heebo', sans-serif;
 	color: black;
 	font-weight: 400;
 	font-size: 15px;
