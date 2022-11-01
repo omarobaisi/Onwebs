@@ -19,12 +19,6 @@
     color: #2F24AE;
 }
 
-/* .testimonials .row {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 50px;
-} */
-
 .testimonials .row {
     display: flex;
     justify-content: center;
@@ -48,11 +42,9 @@
     width: 462.82px;
     display: flex;
     flex-direction: column;
-
 }
 .testimonial p {
-    color: white;
-    opacity: 70%;
+    color: #DADAFF;
     width: 70%;
     font-size: 15px;
     font-weight: 400;

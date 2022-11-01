@@ -6,7 +6,6 @@
     text-align: center;
 }
 .testimonials .inner{
-    width: 70%;
     margin: auto;
     overflow: hidden;
     padding: 0 20px;
@@ -21,20 +20,26 @@
 }
 
 .testimonials .row {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 50px;
+    display: flex;
+    justify-content: center;
+    width: 80%;
+}
+
+.ipad-row {
+    display: none;
 }
 
 .testimonials .col {
     background: #2F24AE;
     box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
     color: #ffff;
-    height: 450px;
-    width: 100%;
+    height: 538px;
+    width: 462.82px;
+    margin: 0 20px;
 }
 .testimonial {
-    height: 450px;
+    height: 538px;
+    width: 462.82px;
     display: flex;
     flex-direction: column;
 }
@@ -49,57 +54,171 @@
     font-weight: 800;
     font-size: 18px;
     line-height: 27.19px;
-    margin: 30px;
 }
 .comma {
     margin-top: 70px;
-    width: 17%;
-}
-.uil-analysis {
-    margin-top: 70px;
-    font-size: 50px;
+    width: 13%;
 }
 
-@media (max-width: 1250px) {
-    .testimonials .row {
-        display: block
+@media (max-width: 1728px){
+    .inner h1 {
+        font-size: 40px;
     }
     .testimonials .col {
-        height: 800px;
-        margin: 70px 0;
+        height: 573px;
+        width: 437px;
     }
     .testimonial {
-        height: 800px;
+        height: 573px;
+        width: 437px;
     }
     .testimonial p {
-        font-size: 20px;
+        line-height: 29px;
     }
     .testimonial .name {
-        font-size: 25px;
-    }
-    .comma {
-        width: 20%;
-        margin-top: 150px;
+        line-height: 34px;
     }
 }
 
-@media (max-width: 640px) {
-    .testimonials .inner{
-        width: 90%;
+@media (max-width: 1512px){
+    .testimonials .col {
+        height: 501px;
+        width: 383px;
     }
+    .testimonial {
+        height: 501px;
+        width: 383px;
+    }
+    .testimonial p {
+        line-height: 25px;
+    }
+    .testimonial .name {
+        line-height: 29px;
+    }
+}
+
+@media (max-width: 1440px){
+    .testimonials .col {
+        height: 412px;
+        width: 354.5px;
+    }
+    .testimonial {
+        height: 412px;
+        width: 354.5px;
+    }
+    .testimonial p {
+        line-height: 22px;
+    }
+    .testimonial .name {
+        line-height: 24px;
+    }
+}
+
+@media (max-width: 1280px){
+    .testimonials .col {
+        height: 381px;
+        width: 324px;
+    }
+    .testimonial {
+        height: 381px;
+        width: 324px;
+    }
+    .testimonial p {
+        line-height: 23px;
+    }
+    .testimonial .name {
+        line-height: 22.64px;
+    }
+}
+
+@media (max-width: 1024px){
     .inner h1 {
         font-size: 50px;
     }
-}
-
-@media (max-width: 420px) {
+    .testimonials .row {
+        display: none;
+    }
+    
+    .ipad-row {
+        display: block;
+    }
+    .ipad-row1 {
+        display: flex;
+        width: 849px
+    }
+    .ipad-row2 {
+        display: flex;
+        justify-content: center;
+        width: 354.5px;
+        margin-top: 70px;
+    }
     .testimonials .col {
-        height: 500px;
+        height: 412px;
+        width: 354.5px;
+        margin: 0 35px;
     }
     .testimonial {
-        height: 500px;
+        height: 412px;
+        width: 354.5px;
+    }
+    .testimonial p {
+        line-height: 22px;
+    }
+    .testimonial .name {
+        line-height: 24.46px;
+    }
+}
+
+@media (max-width: 834px){
+    .inner h1 {
+        font-size: 35px;
+    }
+    .testimonials .row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .ipad-row {
+        display: none;
+    }
+    .testimonials .col {
+        height: 412px;
+        margin-top: 40px;
+    }
+    .testimonial {
+        height: 412px;
+    }
+    .testimonial p {
+        line-height: 22px;
+    }
+}
+
+@media (max-width: 430px){
+    .testimonials .col {
+        height: 308px;
+        width: 287.08px;
+    }
+    .testimonial {
+        height: 308px;
+        width: 287.08px;
+    }
+    .testimonial p {
+        line-height: 25px;
+    }
+    .testimonial .name {
+        line-height: 18.29px;
     }
     .comma {
-        margin-top: 60px;
+        margin-top: 70px;
+        width: 10%;
+    }
+}
+
+@media (max-width: 360px){
+    .testimonials .col {
+        width: 265px;
+    }
+    .testimonial {
+        width: 265px;
     }
 }
