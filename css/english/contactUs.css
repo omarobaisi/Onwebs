@@ -45,17 +45,6 @@
 	line-height: 20px;
 }
 
-.contact-box h2:after{
-	content: '';
-    position: absolute;
-    left: 50%;
-    bottom: 0;
-    transform: translateX(-50%);
-    height: 4px;
-    width: 50px;
-    border-radius: 2px;
-}
-
 .contact-box .field{
 	font-family: 'Heebo', sans-serif;
 	width: 443px;

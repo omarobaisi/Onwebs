@@ -170,8 +170,12 @@
 }
 
 @media (max-width: 834px){
+    .testimonials {
+        padding: 40px;
+    }
     .inner h1 {
         font-size: 35px;
+        margin-bottom: 0;
     }
     .testimonials .row {
         display: flex;
