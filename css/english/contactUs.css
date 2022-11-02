@@ -33,30 +33,32 @@
 
 .contact-box .right{
 	padding: 50px 70px;
+	margin-top: 20px;
 	background-color: black;
 }
 
 .contact-box h2{
-	padding: 0 0 10px;
+	padding: 0 0 25px;
 	background: black;
 	color: white;
-	font-size: 15px;
 	font-weight: 400;
+	font-size: 15px;
 	line-height: 20px;
 }
 
 .contact-box .field{
 	font-family: 'Heebo', sans-serif;
-	width: 443px;
+	width: 394px;
 	height: 65px;
 	border: 2px solid rgba(0, 0, 0, 0);
 	outline: none;
 	background-color: rgba(230, 230, 230, 0.6);
 	padding: 0.5rem 1rem;
-	margin-bottom: 22px;
+	margin-bottom: 30px;
 	transition: 250ms ease-in-out;
 	background: #DADAFF;
 	color: black;
+	font-family: 'Poppins', sans-serif;
 }
 
 .contact-box textarea{
@@ -64,18 +66,20 @@
 }
 
 .contact-box .btn{
-	width: 443px;
+	width: 394px;
 	height: 65px;
-	font-size: 16px;
 	font-weight: 800;
+	font-size: 16px;
 	line-height: 20px;
 	padding: 0.5rem 1rem;
+	margin-top: 20px;
 	background-color: #ffff;
 	color: #2F24AE;
 	border: none;
 	outline: none;
 	cursor: pointer;
 	transition: 250ms ease-in-out;
+	font-family: 'Poppins', sans-serif;
 }
 
 .contact-box .btn:hover{
@@ -83,21 +87,21 @@
 }
 
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-	font-family: 'Heebo', sans-serif;
 	color: black;
 	font-weight: 400;
 	font-size: 15px;
 	line-height: 23px;
     font-style: normal;
 	opacity: 1; /* Firefox */
+	font-family: 'Poppins', sans-serif;
 }
 
 .copyrights {
 	background-color: black;
 	color: white;
-	font-size: 15px;
 	font-weight: 400;
-	line-height: 27.19px;
+	font-size: 15px;
+	line-height: 27px;
 	padding-bottom: 10px;
 }
 
@@ -105,24 +109,76 @@
 	width: 80%;
 }
 
+@media (max-width: 1728px){
+	.contact-box {
+		margin-top: 50px;
+	}
+	.contact-box h2{
+		padding: 0 0 20px;
+	}
+	.contact-box .right{
+		margin-top: 0;
+	}
+    .contact-box .field, .contact-box .btn{
+		width: 443px;
+	}
+	.copyrights {
+		padding-bottom: 40px;
+	}
+	.copyrights div {
+		width: 83%;
+	}
+}
+
 @media (max-width: 1512px){
+	.contact-container{
+		padding: 55px 100px;
+		padding-top: 30px;
+	}
+	.contact-box .right{
+		padding-top: 60px;
+	}
 	.contact-box .field, .contact-box .btn{
-		width: 338px;
+		width: 388px;
+		height: 65px;
 	}
 	.copyrights {
 		line-height: 23px;
 	}
+	.copyrights div {
+		width: 78%;
+	}
 }
 
 @media (max-width: 1440px){
+	.contact-container{
+		padding-top: 35px;
+		padding-bottom: 40px;
+	}
 	.contact-box .field, .contact-box .btn{
 		width: 354px;
 	}
+	.contact-box textarea{
+		min-height: 130px;
+	}
+	.copyrights {
+		padding-bottom: 20px;
+	}
+	.copyrights div {
+		width: 80%;
+	}
+	
 }
 
 @media (max-width: 1280px){
     .contact-box .field, .contact-box .btn{
 		width: 388px;
+	}
+	.copyrights {
+		padding-bottom: 30px;
+	}
+	.copyrights div {
+		width: 83%;
 	}
 }
 

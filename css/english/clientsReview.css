@@ -12,8 +12,8 @@
 }
 
 .inner h1 {
-    margin-bottom: 90px;
-    font-weight: 700;
+    margin-bottom: 120px;
+    font-weight: 800;
     font-size: 50px;
     line-height: 70px;
     color: #2F24AE;
@@ -35,7 +35,7 @@
     color: #ffff;
     height: 538px;
     width: 462.82px;
-    margin: 0 20px;
+    margin: 0 47px;
 }
 .testimonial {
     height: 538px;
@@ -45,35 +45,45 @@
 }
 .testimonial p {
     color: #DADAFF;
-    width: 70%;
-    font-size: 15px;
+    width: 50%;
     font-weight: 400;
+    font-size: 15px;
     line-height: 27px;
+    margin-top: 20px;
 }
 .testimonial .name {
     font-weight: 800;
     font-size: 16px;
     line-height: 32px;
+    margin-top: 40px;
 }
 .comma {
-    margin-top: 70px;
+    margin-top: 90px;
     width: 13%;
 }
 
 @media (max-width: 1728px){
+    .testimonials{
+        padding-top: 50px;
+        padding-bottom: 150px;
+    }
     .inner h1 {
+        margin-bottom: 70px;
         font-size: 40px;
     }
     .testimonials .col {
         height: 573px;
         width: 437px;
+        margin: 0 30px;
     }
     .testimonial {
         height: 573px;
         width: 437px;
     }
     .testimonial p {
+        width: 55%;
         line-height: 29px;
+        margin-top: 40px;
     }
     .testimonial .name {
         line-height: 34px;
@@ -98,23 +108,37 @@
 }
 
 @media (max-width: 1440px){
+    .testimonials{
+        padding: 70px 0;
+    }
     .testimonials .col {
         height: 412px;
         width: 354.5px;
+        margin: 0 22px;
     }
     .testimonial {
         height: 412px;
         width: 354.5px;
     }
     .testimonial p {
+        width: 70%;
         line-height: 22px;
+        margin-top: 30px;
     }
     .testimonial .name {
         line-height: 24px;
+        margin-top: 10px;
+    }
+    .comma {
+        margin-top: 70px;
     }
 }
 
 @media (max-width: 1280px){
+    .testimonials{
+        padding-top: 50px;
+        padding-bottom: 150px;
+    }
     .testimonials .col {
         height: 381px;
         width: 324px;
@@ -124,7 +148,9 @@
         width: 324px;
     }
     .testimonial p {
+        width: 75%;
         line-height: 23px;
+        margin-top: 10px;
     }
     .testimonial .name {
         line-height: 22.64px;
@@ -132,6 +158,9 @@
 }
 
 @media (max-width: 1024px){
+    .testimonials{
+        padding: 70px 0;
+    }
     .inner h1 {
         font-size: 50px;
     }
@@ -162,6 +191,7 @@
         width: 354.5px;
     }
     .testimonial p {
+        width: 70%;
         line-height: 22px;
     }
     .testimonial .name {
@@ -215,7 +245,7 @@
         padding-bottom: 20px;
     }
     .comma {
-        margin-top: 70px;
+        margin-top: 50px;
         width: 10%;
     }
 }
