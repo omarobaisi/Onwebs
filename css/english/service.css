@@ -54,6 +54,9 @@
 }
 
 @media (max-width: 1728px) {
+    .service-header {
+        font-size: 40px;
+    }
     .mid-service {
         margin-left: 30px;
     }
