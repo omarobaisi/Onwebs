@@ -24,6 +24,10 @@
     text-align: start;
 }
 
+.service img {
+    width: 78px;
+}
+
 .mid-service {
     margin-left: 70px;
 }
