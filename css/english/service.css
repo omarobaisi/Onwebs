@@ -74,10 +74,10 @@
 
 @media (max-width: 1024px){
     .mid-service {
-        margin-right: 0;
+        margin-left: 0;
     }
     .end-service {
-        margin-right: 0;
+        margin-left: 0;
     }
     .service-row {
         grid-template-columns: repeat(2, 1fr);
