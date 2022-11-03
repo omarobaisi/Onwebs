@@ -42,7 +42,15 @@
 	background: black;
 	color: white;
 	font-size: 16px;
-	font-weight: 400;
+	font-weight: 300;
+	line-height: 20px;
+}
+.contact-box .english-contact {
+	padding: 0 0 10px;
+	background: black;
+	color: white;
+	font-size: 15px;
+	font-weight: 200;
 	line-height: 20px;
 }
 .contact-box .number {
@@ -100,7 +108,7 @@
 	background-color: black;
 	color: white;
 	font-size: 15px;
-	font-weight: 400;
+	font-weight: 300;
 	line-height: 27.19px;
 	padding-bottom: 10px;
 }
