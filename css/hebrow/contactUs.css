@@ -92,7 +92,8 @@
 }
 
 .contact-box .btn:hover{
-    background-color: #DADAFF;
+    background-color: #2F24AE;
+	color: white;
 }
 
 ::placeholder {

@@ -81,21 +81,21 @@
     }
 }
 
-@media (max-width: 1400px) {
+@media (max-width: 1460px) {
     .service-row {
         grid-column-gap: 100px;
         grid-row-gap: 80px;
     }
 }
 
-@media (max-width: 1280px) {
+@media (max-width: 1323px) {
     .service-row {
         grid-column-gap: 60px;
         grid-row-gap: 60px;
     }
 }
 
-@media (max-width: 1024px){
+@media (max-width: 1227px){
     .mid-service {
         margin-right: 0;
     }
