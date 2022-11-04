@@ -69,6 +69,7 @@
 	background: #DADAFF;
 	color: black;
 	font-family: 'Heebo', sans-serif;
+	font-size: 16px;
 }
 
 .contact-box textarea{
@@ -111,7 +112,7 @@
 	font-size: 15px;
 	font-weight: 300;
 	line-height: 27.19px;
-	padding-bottom: 10px;
+	padding-bottom: 20px;
 }
 
 .copyrights div {
