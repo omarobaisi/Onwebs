@@ -13,8 +13,8 @@ const sendEmail = function(name, email, subject, message) {
         Host : "smtp.elasticemail.com",
         Username : "omr.obasi28@gmail.com",
         Password : "2D9AB8760DB7402344DFFB70838BE930C046",
-        To : "onwebs.sup@gmail.com",
-        From : "aviadmasasa@gmail.com",
+        To : "aviadmasasa@gmail.com",
+        From : "omr.obasi28@gmail.com",
         Subject : "onwebs, " + subject,
         Body : 
         `
