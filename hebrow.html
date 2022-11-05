@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/hebrow/service.css">
     <link rel="stylesheet" href="css/hebrow/clientsReview.css">
     <link rel="stylesheet" href="css/hebrow/contactUs.css">
+    <link rel="stylesheet" href="css/english/flash.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@200;300;400;500;600;700;800&family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
@@ -16,6 +17,11 @@
     <script src="https://kit.fontawesome.com/dcd23d6329.js" crossorigin="anonymous"></script>
 </head>
 <body>
+    <div class="flash-container">
+        <div class="flash">
+          <h1 class="flash-message">הודעה נשלחה בהצלחה</h1>
+        </div>
+    </div>
     <div class="header-container"> 
         <div class="header-logo">
             <div><img src="img/WhatsApp_Image_2022-10-17_at_20.03.21-removebg-preview.png" alt=""></div>
@@ -191,11 +197,11 @@
 			    <div class="contact-info number">0523153355</div>
 			    <div class="contact-info">המשולש 4, עמק חפר, ישראל</div>
             </div>
-			<div class="right">
-				<input type="text" class="field" placeholder="שם מלא">
-				<input type="text" class="field" placeholder="כתובת מייל">
-				<input type="text" class="field" placeholder="נושא">
-				<textarea placeholder="הודעה" class="field"></textarea>
+			<form onsubmit="fetchEmailInfo(event)" class="right">
+				<input type="text" class="field" placeholder="שם מלא" id="name">
+				<input type="text" class="field" placeholder="כתובת מייל" id="email">
+				<input type="text" class="field" placeholder="נושא" id="subject" id="subject">
+				<textarea placeholder="הודעה" class="field" id="message"></textarea>
 				<button class="btn">שלח</button>
 			</div>
 		</div>
@@ -203,5 +209,8 @@
     <div class="copyrights english" dir="ltr"><div><i class="fa-regular fa-copyright"></i> 2022 A branding & graphics. All rights reserved.</div></div>
 
     <script src="./js/scroll.js"></script>
+    <script src="./js/emailService.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="./flashjs-master/dist/flash.min.js"></script>
 </body>
 </html>
