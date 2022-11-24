@@ -2,4 +2,4 @@
 
 Website link:
 
-https://onweb-tech.netlify.app/
+https://onwebs.netlify.app/
