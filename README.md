@@ -1,6 +1,6 @@
 # Onwebs
 
-This is the source code for Onwebs which was a client of mine, designed using Figma and built using HTML, CSS and JS. The live website can be viewed at https://onwebs.netlify.app/.
+This is the source code for Onwebs which was a client, designed using Figma and built using HTML, CSS and JS. The live website can be viewed at https://onwebs.netlify.app/.
 
 **IMPORTANT:** The design of this website is copyrighted and all rights are reserved.
 
