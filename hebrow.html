@@ -197,11 +197,11 @@
 			    <div class="contact-info number">0523153355</div>
 			    <div class="contact-info">המשולש 4, עמק חפר, ישראל</div>
             </div>
-			<form onsubmit="fetchEmailInfo(event)" class="right">
-				<input type="text" class="field" placeholder="שם מלא" id="name">
-				<input type="text" class="field" placeholder="כתובת מייל" id="email">
-				<input type="text" class="field" placeholder="נושא" id="subject" id="subject">
-				<textarea placeholder="הודעה" class="field" id="message"></textarea>
+			<form action="https://formsubmit.co/omr.obasi28@gmail.com" method="POST" class="right">
+				<input type="text" class="field" placeholder="שם מלא" id="name" name='name' required>
+				<input type="text" class="field" placeholder="כתובת מייל" id="email" name='email' required>
+				<input type="text" class="field" placeholder="נושא" id="subject" id="subject" name='subject' required>
+				<textarea placeholder="הודעה" class="field" id="message" name='message' required></textarea>
 				<button class="btn">שלח</button>
 			</div>
 		</div>
